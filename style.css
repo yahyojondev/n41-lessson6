@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/Roboto/Roboto-Italic.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 50px;
+    margin: auto;
+    width: 1440px;
+}
+header h1{
+    padding: 10px 570px 9px;
+    color: #F1D3B9;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 27.2px;
+    background-color: #B36050;;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.shop-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.shop-list-item{
+    padding: 16px 30px 16px;
+    display: inline-block;
+}
+.shop-list-images{
+    margin-left: 140px;
+    width: 120px;
+    height: 56px;
+}
+.shop-list-item-1{
+    margin-left: 150px;
+}
+.shop-list-item-2{
+    margin-left: 150px;
+}
+.shop-list-item-3{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: #B4604D;   
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 28.8px;
+    text-transform: capitalize;
+}
+.section-one{
+    margin: auto;
+    width: 1440px;
+    text-align: center;
+    background-color: #A9AE8D;
+}
+.section-img{
+    display: inline-block;
+    width: 1440px;
+    height: 435px;
+}
+.section-one-div{
+    margin: auto;
+    width: 1440px;
+    height: 304px;
+}
+.section-one-div p{
+    margin: 69px auto 15px;
+    color: #F6F4EC;   
+    width: 242px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: uppercase;
+}
+.section-one-div h3{
+    padding: 0px 0px 28px;
+    color: #F6F4EC;
+    font-family: Roboto;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+.section-one-div button{
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto 51px;
+    width: 128px;
+    height: 48px;
+    color: #FFF;
+    background-color: #B45F4D;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 28.8px;
+}
+.container h5{
+    margin: 25px auto 35px;
+    color: #B45F4D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 39.2px;
+    text-transform: capitalize;
+}
+.section-two{
+    padding-bottom: 40px;
+    margin: auto;
+    width: 1440px;
+}
+.container article{
+    display: inline-block;
+}
+.container p{
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-transform: uppercase;
+}
+.container span{
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.article-2{
+  padding: 0px 82px 0px;
+}
+article p{
+    padding-top: 35px;
+}
+.container img{
+    padding-top: 20px;
+}
+.section-three-box{
+    margin-bottom: 50px;
+    background-color: #DF9B7A;
+}
+.section-four{
+    background-color: #F1D3B9;
+    margin-bottom: 50px;
+}
+
+.section-four-box{
+    display: inline-block;
+    padding-top: 100px;
+    border: 1px solid #ffff;
+    margin-left: 296px; 
+    margin-bottom: 50px;
+    text-align: center;        
+    width: 400px;
+    height: 500px;
+    background-color: #F8F8F8;
+}
+.footer-box{
+    display: flex;
+    gap: 100px;
+}
+.unordered-footer-list{
+    display: inline-block;
+    list-style: none;
+}
+.footer-list-item{
+    padding: 10px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.footer-box{
+    display: inline-block;
+}
+.footer-box-2{
+    margin-left: 400px;
+    display: inline-block;
+}
+.footer-box-3{
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+    color: #C17C6C;
+    width: 450px ;
+    border: 1px solid #C17C6C;
+    border-radius: 5px;
+}
+address{
+    color:#C17C6C ;
+}
+footer{
+    margin-bottom: 30px;
+}
+
+
+
